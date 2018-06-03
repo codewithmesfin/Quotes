@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main">
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/about"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp" />
+    <Button
+        android:id="@+id/mainhome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/quotesbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/artbutton"
+        android:layout_toStartOf="@+id/artbutton" />
+
+    <Button
+        android:id="@+id/artbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/artbutton"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_marginRight="37dp"
+        android:layout_marginEnd="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
